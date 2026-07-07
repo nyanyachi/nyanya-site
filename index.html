@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nyanya Project Lab is a small collection of creative AI-assisted web apps for vocal practice, mixing analysis, tarot reading, and project management." />
+  <title>Nyanya Project Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top">Nyanya Project Lab</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#logs">Dev Logs</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/nyanyachi" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">AI-assisted creative tools</p>
+        <h1>Small apps for singing, mixing, tarot, and project tracking.</h1>
+        <p class="hero-description">
+          Nyanya Project Lab is a personal collection of lightweight web apps built with Python, Streamlit, audio analysis, and simple project workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#logs">Read Dev Logs</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Project status summary">
+        <span class="status-dot"></span>
+        <h2>Current Focus</h2>
+        <p>Turning existing apps into a clean mini-site portfolio.</p>
+      </aside>
+    </section>
+
+    <section class="section intro">
+      <h2>What this site is</h2>
+      <p>
+        This site introduces experimental tools made for real personal workflows: vocal pitch review, basic mixing guidance, tarot-style journaling, and project status tracking. Each project is small, practical, and improved through actual use.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Apps in the lab</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Vocal Pitch Analysis App</h3>
+          <p>Compare personal vocal recordings with a reference track, review pitch stability, and track vocal growth over time.</p>
+          <ul>
+            <li>Pitch extraction with audio analysis</li>
+            <li>Accuracy and stability indicators</li>
+            <li>Practice-oriented feedback</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://vocal-pitch-analysis-app.streamlit.app/" target="_blank" rel="noopener">Live Demo</a>
+            <a href="https://github.com/nyanyachi/vocal-pitch-analysis-app" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Mixing Assistant</h3>
+          <p>Analyze vocal recordings and suggest what to check first, such as volume balance, compressor need, de-esser need, and EQ direction.</p>
+          <ul>
+            <li>Peak/RMS-based checks</li>
+            <li>Mix readiness score</li>
+            <li>Beginner-friendly workflow guidance</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://mixing-assistant.streamlit.app/" target="_blank" rel="noopener">Live Demo</a>
+            <a href="https://github.com/nyanyachi/mixing-assistant" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Lumen Tarot</h3>
+          <p>A simple tarot reading app with card history, mood-aware interpretation templates, and lightweight journaling features.</p>
+          <ul>
+            <li>One-card and three-card readings</li>
+            <li>Mood-based interpretation</li>
+            <li>Reading history storage</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://lumen-tarot.streamlit.app/" target="_blank" rel="noopener">Live Demo</a>
+            <a href="https://github.com/nyanyachi/lumen-tarot" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Nyanya Hub</h3>
+          <p>A lightweight launcher page for opening and organizing Nyanya apps without merging each app into one large project.</p>
+          <ul>
+            <li>App launcher concept</li>
+            <li>Simple project cards</li>
+            <li>Designed for future summaries</li>
+          </ul>
+          <div class="card-actions">
+            <a href="#" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="logs" class="section logs">
+      <div class="section-heading">
+        <p class="eyebrow">Dev Logs</p>
+        <h2>Build notes</h2>
+      </div>
+      <div class="log-list">
+        <article>
+          <time datetime="2026-07-06">July 6, 2026</time>
+          <h3>Why I started turning apps into a mini-site</h3>
+          <p>
+            After building several small tools, the next challenge became presentation and long-term maintenance. This mini-site is designed to explain each project clearly and connect demos, code, and development notes in one place.
+          </p>
+        </article>
+        <article>
+          <time datetime="2026-06-20">June 20, 2026</time>
+          <h3>Separating Hub and Project Assistant roles</h3>
+          <p>
+            Nyanya Hub acts as a launcher, while Nyanya Project Assistant manages project status and logs. Keeping the tools separate makes the system easier to maintain.
+          </p>
+        </article>
+        <article>
+          <time datetime="2026-06-15">June 15, 2026</time>
+          <h3>Mixing Assistant QA direction</h3>
+          <p>
+            Real vocal tests showed that audio analysis tools need practical QA, not only feature development. The goal is to make feedback useful for actual mixing decisions.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Nyanya Project Lab. Built as a personal project portfolio.</p>
+    <div>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://github.com/nyanyachi" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
